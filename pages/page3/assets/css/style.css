@@ -1,0 +1,393 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+a {
+    display: block;
+    margin: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section.name {
+    margin: 40px 0;
+    text-align: center;
+}
+
+/* Design 1 */
+.design1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00eefffd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.design1 .box img {
+    width: 50px;
+    height: auto;
+}
+
+.design1 p {
+    margin: 10px 0;
+    color: #f500cc;
+    font-size: 20px;
+}
+
+.design1 nav button {
+    background-color: #f500cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design1 nav button:hover {
+    background-color: #0011ff;
+}
+
+/* Design 2 */
+.design2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a1f81;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.design2 .box img {
+    width: 50px;
+    height: auto;
+}
+
+.design2 p {
+    margin: 10px 0;
+    color: #10e0e7;
+    font-size: 20px;
+}
+
+.design2 nav button {
+    background-color: #10e0e7;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design2 nav button:hover {
+    background-color: #000000;
+}
+
+/* Design 3 */
+.design3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2195c;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.design3 .image-container img {
+    width: 50px;
+    height: auto;
+}
+
+.design3 nav button {
+    background-color: #0d94d3;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design3 nav button:hover {
+    background-color: #000000;
+}
+
+/* Design 4 */
+.design4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ddcb;
+    font-family: 'Lato', sans-serif;
+}
+
+.design4 .box img {
+    width: 50px;
+    height: auto;
+}
+
+.design4 p {
+    margin: 10px 0;
+    color: #b920a0;
+    font-size: 20px;
+}
+
+.design4 input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.design4 .icon-container img {
+    width: 30px;
+    height: auto;
+}
+
+/* Design 5 */
+.design5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a1f81;
+    font-family: 'Nunito', sans-serif;
+}
+
+.design5 .box img {
+    width: 50px;
+    height: auto;
+}
+
+.design5 nav button {
+    background-color: #10e0e7;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design5 nav button:hover {
+    background-color: #000000;
+}
+
+.design5 .box .icon-containerr img,
+.design5 .box .icon-containert img,
+.design5 .box .icon-containerx img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+/* Animated Header Designs */
+/* Design 6 */
+.design6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00eefffd;
+    font-family: 'Raleway', sans-serif;
+}
+
+.design6 .box img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.design6 .box img:hover {
+    transform: rotate(10deg);
+}
+
+.design6 p {
+    margin: 10px 0;
+    color: #f500cc;
+    font-size: 20px;
+    transition: color 0.5s, font-size 0.5s;
+}
+
+.design6 p:hover {
+    color: #000000;
+    font-size: 22px;
+}
+
+.design6 nav button {
+    background-color: #f500cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.design6 nav button:hover {
+    transform: scale(1.1);
+    background-color: #000000;
+}
+
+/* Design 7 */
+.design7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a1f81;
+    font-family: 'Roboto Slab', serif;
+}
+
+.design7 .box img {
+    width: 70px;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.design7 .box img:hover {
+    transform: translateY(-10px);
+}
+
+.design7 p {
+    margin: 10px 0;
+    color: #10e0e7;
+    font-size: 30px;
+}
+
+.design7 nav button {
+    background-color: #10e0e7;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.1s;
+}
+
+.design7 nav button:hover {
+    transform: scale(1.2);
+}
+
+/* Design 8 */
+.design8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2195c;
+    font-family: 'Merriweather', serif;
+}
+
+.design8 .image-container8 img {
+    width: 50px;
+    height: auto;
+    transition: transform 1s;
+}
+
+.design8 .image-container8 img:hover {
+    transform: rotate(360deg);
+}
+
+.design8 nav button {
+    background-color: #0d94d3;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.design8 nav button:hover {
+    background-color: #000000;
+}
+
+/* Design 9 */
+.design9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a1f81;
+    font-family: 'Playfair Display', serif;
+}
+
+.design9 .box img {
+    width: 50px;
+    height: auto;
+    transition: transform 1s;
+}
+
+.design9 .box img:hover {
+    transform: rotate(360deg);
+}
+
+.design9 p {
+    margin: 10px 0;
+    color: #10e0e7;
+    font-size: 30px;
+}
+
+.design9 input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.design9 .icon-containerqwe img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.design9 .icon-containerqwe img:hover {
+    transform: rotate(90deg);
+}
+
+/* Design 10 */
+.design10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff56e8;
+    font-family: 'Oswald', sans-serif;
+}
+
+.design10 .box img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.design10 .box img:hover {
+    transform: skewX(20deg);
+}
+
+.design10 nav button {
+    background-color: #f82b7a;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.design10 nav button:hover {
+    transform: skewY(10deg);
+    background-color: #fd3aed;
+}
+
+.design10 .box .icon-containerrr img,
+.design10 .box .icon-containertt img,
+.design10 .box .icon-containerxx img {
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
